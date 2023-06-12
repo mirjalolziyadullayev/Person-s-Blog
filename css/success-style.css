@@ -77,7 +77,7 @@ text-align:center
 }
 
 #menu a:hover {
-background-color:#d4f0fc
+background-color:#282E3A
 }
 
 #menu a:focus {
@@ -91,13 +91,13 @@ border-radius:7px
 }
 
 #menu a,.buttn {
-background:#e7eff6;
-color:#000;
+background:#9E2A32;
+color:#FFF;
 cursor:pointer
 }
 
 #menu a,.buttn,.txt,textarea {
-border:3px solid #d4f0fc
+border:2px solid #9E2A32
 }
 
 #menu a:focus,.buttn:focus,.txt:focus,textarea:focus {
@@ -117,7 +117,7 @@ border-radius:5px
 }
 
 .buttn:hover,.buttn:focus {
-background:#d4f0fc
+background:#282E3A
 }
 
 .txt {

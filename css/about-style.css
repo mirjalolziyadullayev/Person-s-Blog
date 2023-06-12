@@ -117,7 +117,7 @@ border-radius:5px
 }
 
 .buttn:hover,.buttn:focus {
-background:#d4f0fc
+background:#282E3A
 }
 
 .txt {
@@ -187,6 +187,44 @@ margin:0 19px 19px 0
 font-size:28px
 }
 
+#contact {
+border:3px solid #e7eff6;
+border-radius:15px ;
+width: 350px;
+padding:25px 50px;
+}
+#contact .form-label{
+font-size: 14px;
+}
+#contact .form-control {
+width: 300px;
+border: 3px solid #d4f0fc;
+margin: 5px;
+padding: 5px 15px;
+border-radius: 5px;
+}
+#contact .submit-btn {
+left: 0;
+right: 0;
+width: 305px;
+background-color: #e7eff6;
+border:3px solid #d4f0fc;
+border-radius: 5px;
+margin: 15px 20px;
+padding: 5px 5px 5px 5px;
+}
+#contact .submit-btn:hover {
+background-color: #d4f0fc;
+}
+#contact .form-control:focus, .form-label:focus, .submit-btn:focus{
+-moz-box-shadow:0 0 6px rgba(0,0,0,0.75);
+-webkit-box-shadow:0 0 6px rgba(0,0,0,0.75);
+box-shadow:0 0 6px rgba(0,0,0,0.75)
+}
+
+#comments {
+height: 100px;
+}
 #footer {
 height:60px;
 width:870px
